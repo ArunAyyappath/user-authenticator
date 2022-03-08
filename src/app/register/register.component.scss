@@ -1,0 +1,43 @@
+.wrapper {
+  width: 30%;
+  display: inline-table;
+  border: 1px solid #000;
+  min-height: 350px;
+
+  .verified-adhar {
+    height: 50px;
+    border: 2px solid green;
+    background: #00800038;
+    color: #0000ffa1;
+    font-size: 25px;
+  }
+
+  .alert {
+    font-size: 30px;
+  }
+
+  .agreement {
+    color: #0000ffa1;
+  }
+}
+
+.confirm {
+  & button {
+    width: 200px;
+    border-radius: 0;
+  }
+}
+.agree-terms {
+  position: relative;
+  left: 115px;
+  padding-top: 5px;
+}
+
+img {
+  &.aadhar {
+    width: 80px;
+    height: auto;
+    top: 15px;
+    position: relative;
+  }
+}

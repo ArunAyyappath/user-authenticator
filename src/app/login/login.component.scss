@@ -1,0 +1,30 @@
+.wrapper {
+  width: 30%;
+  display: inline-table;
+  border: 1px solid #000;
+  min-height: 350px;
+
+  .logo {
+    text-align: right;
+    img {
+      width: 150px;
+    }
+  }
+
+  .footer {
+    text-align: left;
+    padding: 5px;
+    img {
+      width: 50px;
+      float: left;
+      padding-right: 5px;
+    }
+  }
+
+  .confirm {
+    & button {
+      width: 200px;
+      border-radius: 0;
+    }
+  }
+}
